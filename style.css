@@ -1,0 +1,11 @@
+th,
+td{
+    text-align: left;
+}
+
+.foto_ja {
+    width: 150px;
+    border-radius: 55%;
+    float: left;
+    margin: 0 30px 30px 0;
+}
