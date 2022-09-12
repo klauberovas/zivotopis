@@ -37,7 +37,19 @@ a {
 th,
 td{
     text-align: left;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
 }
+.jazyk {
+    text-align: left;
+    padding: 0 50px 0 50px;
+}
+.uroven{
+    text-align: right;
+    padding: 0 50px 0 50px;
+    border-left: 1px solid black;
+}
+
 .fyzio {
     text-align: center;
 }
@@ -54,13 +66,13 @@ td{
 }
 
 .vlevo {
-    width: 900px;
+    width: 30%;
     padding: 3%;
     background-color: #E6E6FA;
 }
 
 .vpravo {
-    width: 900px;
+    width: 70%;
     padding: 3%;
     background-color:snow ;
 }
