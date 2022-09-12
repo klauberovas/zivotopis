@@ -37,19 +37,25 @@ a {
 th,
 td{
     text-align: left;
-    border-bottom: 1px solid black;
     padding: 10px 0;
+    border-bottom:1px solid black ;
 }
-.jazyk {
+.jazyk,
+.jazyk_ital{
     text-align: left;
     padding: 0 50px 0 50px;
 }
-.uroven{
+.uroven, 
+.uroven_ital{
     text-align: right;
     padding: 0 50px 0 50px;
-    border-left: 1px solid black;
+    border-left: 1px solid black;    
 }
+.jazyk_ital,
+.uroven_ital{
+    border-bottom: 0;
 
+}
 .fyzio {
     text-align: center;
 }
