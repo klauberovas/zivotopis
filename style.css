@@ -1,14 +1,19 @@
 body {
     color: #383838;
     line-height: 1.5;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 20px;
     margin:0;
    }
 
 h1,
-h2 {
-    text-align: center;
+h2,
+h3 {
+    font-family: 'Cinzel', serif;
+}
+h1,
+h2{
+    text-align: center;   
 }
 
 h1 {
@@ -23,6 +28,7 @@ h2 {
 
 h3 {
     margin-bottom: 0;
+    font-weight: bold ;
 }
 
 a {
@@ -70,7 +76,7 @@ td{
 }
 
 .foto_ja {
-    width: 220px;
+    width: 300px;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -84,13 +90,13 @@ td{
 
 .vlevo {
     width: 27%;
-    padding: 0 3%;
+    padding: 2% 3%;
     background-color: #E6E6FA;
 }
 
 .vpravo {
     width: 70%;
-    padding: 0 3%;
+    padding: 2% 3%;
     background-color:snow ;
 }
 
